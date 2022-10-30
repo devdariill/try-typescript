@@ -17,3 +17,5 @@ function TypesComponent() {
     )
   }
   export default TypesComponent;
+
+  //edit the tsconfig.json file

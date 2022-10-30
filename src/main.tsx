@@ -8,3 +8,4 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <App  age={30} name={"ronald"} lastName={"dario"}/>
   </React.StrictMode>
 )
+// edit: I've added the `as HTMLElement` to the `getElementById` call. This is because the `getElementById` method returns `HTMLElement | null` and the `render` method expects `HTMLElement`.

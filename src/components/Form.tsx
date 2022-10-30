@@ -49,3 +49,5 @@ function Form() {
   );
 }
 export default Form;
+
+// edit: I've added the `as HTMLElement` to the `getElementById` call. This is because the `getElementById` method returns `HTMLElement | null` and the `render` method expects `HTMLElement`.

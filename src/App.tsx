@@ -33,3 +33,5 @@ function App({ name, lastName, age }: Props) {
   );
 }
 export default App;
+
+// edit: I've added the `as HTMLElement` to the `getElementById` call. This is because the `getElementById` method returns `HTMLElement | null` and the `render` method expects `HTMLElement`.
